@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>IconPacks.Avalonia.Core</AssemblyName>
+        <Title>IconPacks.Avalonia.Core</Title>
+        <RootNamespace>IconPacks.Avalonia</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Avalonia" />
+        <PackageReference Include="JetBrains.Annotations" PrivateAssets="All" IncludeAssets="build;compile" />
+        <PackageReference Include="System.Text.Json" />
+    </ItemGroup>
+
+</Project>
